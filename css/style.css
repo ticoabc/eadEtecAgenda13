@@ -1,0 +1,61 @@
+/*
+    Folha de estilo do site One Page HTML5 e CSS3
+    Agenda 13
+
+    html {
+    scroll-behavior: smooth;
+}
+
+*/
+
+/* Importação (Google Fonts) */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+/* CSS Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #1e1d20;
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna1, .coluna2, .coluna3 {
+    align-items: center;
+    margin: 1%;
+}
+
+.coluna1 {
+    flex-grow: 1;
+}
+
+.coluna2 {
+    flex-grow: 1;
+}
+
+.coluna3 {
+    flex-grow: 1;
+}
+
+img {
+    width: 100%;
+    margin: 1.5%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(6, 135, 209);
+    font-size: 4.5em;
+}
+
+a:link, a:visited {
+    color: #fff;
+}
