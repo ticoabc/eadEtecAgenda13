@@ -1,0 +1,76 @@
+/*
+    Folha de estilo do site One Page HTML5 e CSS3
+    Agenda 13
+}*/
+
+/* Importação (Google Fonts) */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+/* CSS Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Estilo Geral ------------------------------------------------------*/
+body {
+    background-color: black;
+    background-image: linear-gradient(180deg, #fff, black);
+}
+
+header {
+    width: 100%;
+    padding: 1px;
+    font-size: 1em;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), black);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3.5em;
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Estilo para as colunas*/
+.coluna1, .coluna2, .coluna3, .coluna4, .coluna5 {
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    margin: 0.5%;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.coluna1 {
+    flex-grow: 1;
+}
+
+.coluna2 {
+    flex-grow: 1;
+}
+
+.coluna3 {
+    flex-grow: 1;
+}
+
+.coluna4 {
+    flex-grow: 1;
+}
+
+.coluna5 {
+    flex-grow: 1;
+}
+
+img {
+    width: 260px;
+    height: 200px;
+    margin: 0.5%;
+}
